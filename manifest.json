@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "HotReaload",
+    "version": "1.0",
+  
+    "description": "HotReload for devloper on an entire project folder if you using php",
+  
+    "icons": {
+      "48": "icons/hr.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://localhost/*"],
+        "js": ["hr.js"]
+      }
+    ]
+  
+  }
+  
