@@ -1,0 +1,23 @@
+body {
+    background: rgb(255, 201, 14);
+    color : rgb(237, 28, 36);
+    width: 200px;
+    height : 200px; 
+}
+
+
+.buttonOn{
+    margin : auto,
+}
+.buttonOn:hover{
+    font-size : 1.2rem; 
+}
+
+.buttonOff{
+    margin : auto,
+}
+.buttonOff:hover{
+    font-size : 1.2rem; 
+}
+
+

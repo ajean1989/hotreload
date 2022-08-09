@@ -1,6 +1,7 @@
 document.body.style.border = '5px solid blue';
 
 
+
 async function hr()
 {
     let response = await fetch('http://localhost:8000/hr.php');
@@ -42,7 +43,6 @@ async function hr()
 
 
   setInterval(hr, 1000);
-
 
 
 

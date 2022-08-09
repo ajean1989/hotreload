@@ -4,10 +4,16 @@
     "name": "HotReaload",
     "version": "1.0",
   
-    "description": "HotReload for devloper on an entire project folder if you using php",
+    "description": "HotReload for developer, reload when you modify all type of file. You must use localhost:8000 and put hr.php at the root of your project.",
   
     "icons": {
       "48": "icons/hr.png"
+    },
+
+    "browser_action": {
+      "default_icon": "icons/hr.png",
+      "default_title": "HotReload",
+      "default_popup": "popup/hr.html"
     },
   
     "content_scripts": [
@@ -16,6 +22,8 @@
         "js": ["hr.js"]
       }
     ]
+
+    
   
   }
   
