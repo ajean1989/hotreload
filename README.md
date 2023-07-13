@@ -5,5 +5,6 @@ Il se base sur la taille des fichiers donc ne reload pas si la modification ne c
 
 # Utilisation
 
-Utilisez localhost:8000 et mettre hr.php à la racine du projet.
+Installer le fichier avec l'extension .xpi sur le navigateur. 
+Utilisez localhost:8000 pour le serveur de développement php et mettre le fichier "hr.php" à la racine du projet.
 
